@@ -20,7 +20,10 @@ You also agree to abide by our
 2.  For our lessons,
     you should branch from and submit pull requests against the `gh-pages` branch.
 
-3.  When editing lesson pages, you need only commit changes to the Markdown source files.
+3.  When editing lessons, please only commit changes to the Markdown
+    files, *not* the generated HTML.  We will re-create the HTML after
+    your pull request is merged.  (Working this way ensures that each
+    change only needs to be reviewed once, in one place.)
 
 4.  If you're looking for things to work on,
     please see [the list of issues for this repository][issues],
@@ -46,5 +49,3 @@ You also agree to abide by our
 [license]: LICENSE.md
 [pro-git-chapter]: http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
 [swc-lessons]: http://software-carpentry.org/lessons.html
-[swc-maintainers]: http://software-carpentry.org/lessons.html#maintainers
-[swc-website]: http://software-carpentry.org
